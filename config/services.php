@@ -30,4 +30,11 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+
+    'cartoncloud' => [
+        'url'      => env('CARTONCLOUD_API_URL'),
+        'version'  => env('CARTONCLOUD_API_VERSION'),
+        'username'     => env('CARTONCLOUD_API_USERNAME'),
+        'password' => env('CARTONCLOUD_API_PASSWORD'),
+    ],
 ];
